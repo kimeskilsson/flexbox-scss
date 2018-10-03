@@ -9,8 +9,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -18,8 +17,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -27,8 +25,7 @@ body {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -37,14 +34,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -54,8 +49,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -63,8 +57,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -75,18 +68,15 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
-}
+  text-decoration: underline dotted;
+  /* 2 */ }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -98,15 +88,13 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -117,16 +105,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
@@ -134,8 +119,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
    ========================================================================== */
@@ -155,8 +139,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -165,8 +148,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -175,8 +157,7 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
@@ -185,8 +166,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -196,8 +176,7 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -206,15 +185,13 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -223,8 +200,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -235,22 +211,19 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
@@ -258,20 +231,17 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -281,15 +251,13 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -299,8 +267,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -308,15 +275,13 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
    ========================================================================== */
@@ -324,165 +289,126 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* ====== GLOBAL ====== */
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Futura", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
-  background-color: #cccccc;
-}
+  background-color: #cccccc; }
 
 .wrapper {
   max-width: 960px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .fa-heart {
-  color: gold;
-}
+  color: gold; }
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 .img-float-right {
   float: right;
-  margin: 0 0 1.2em 1.2em;
-}
+  margin: 0 0 1.2em 1.2em; }
 
 .img-float-left {
   float: left;
-  margin: 0 1.2em 1.2em 0em;
-}
+  margin: 0 1.2em 1.2em 0em; }
 
 @media only screen and (min-width: 960px) {
   .img-half {
-    max-width: 50%;
-  }
-}
+    max-width: 50%; } }
 /* ====== NAVBAR ====== */
 nav {
+  background-color: gold;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-nav ul li {
-  display: inline;
-}
-nav ul li a {
-  display: inline-block;
-  padding: 1em;
-  color: white;
-  text-decoration: none;
-}
-nav ul li :hover {
-  background-color: #fff09d;
-}
+  z-index: 1000; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    nav ul li {
+      display: inline; }
+      nav ul li a {
+        display: inline-block;
+        padding: 1em;
+        color: #272727;
+        text-decoration: none; }
+      nav ul li :hover {
+        background-color: #fff09d; }
 
 /* ====== HEADER ====== */
 header {
   height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
-  position: relative;
-}
-header:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url(../img/duck.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
+  position: relative; }
+  header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/duck.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; }
 
 .jumbotron {
   text-align: center;
   text-shadow: 1px 1px 0px #272727;
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 /* ====== MAIN ====== */
 main section {
   padding: 4em 1em;
-  background-color: white;
-}
-main section h2 {
-  font-size: 3em;
-}
-main section h2:first-of-type {
-  margin-top: 0;
-}
+  background-color: white; }
+  main section h2 {
+    font-size: 3em; }
+  main section h2:first-of-type {
+    margin-top: 0; }
 main section:nth-of-type(even) {
-  background-color: #efefef;
-}
+  background-color: #efefef; }
 main a {
   color: #272727;
-  font-weight: bold;
-}
-main a:hover {
-  color: gold;
-}
+  font-weight: bold; }
+  main a:hover {
+    color: gold; }
 main h1, main h2, main h3, main h4, main h5, main h6, main p {
-  color: #272727;
-}
+  color: #272727; }
 main p {
   font-size: 1.2em;
   font-family: 'Courier New', Courier, monospace;
   text-align: justify;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
-}
+  hyphens: auto; }
 
 @media only screen and (min-width: 960px) {
   main section {
-    padding: 4em;
-  }
-}
+    padding: 4em; } }
 /* ====== FOOTER ====== */
 footer {
   background-color: #272727;
   color: white;
   padding: 4em 1em;
-  text-align: center;
-}
+  text-align: center; }
+
+/*# sourceMappingURL=master.css.map */
