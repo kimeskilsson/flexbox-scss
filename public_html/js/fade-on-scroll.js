@@ -4,9 +4,49 @@ Autho: Kim Eskilsson
 Created: October 2018
 */
 
-function setAlpha(alpha) {
-$("nav").css("background-color", "rgba(0,0,0," + alpha + ")");
+//Definiera vid hur många pixlars bredd vi vill ha vår brytpunkt
+const breakpoint = 960;
+
+// Definera den initiala bredden på viewporten
+let previousWidth = $(window).width();
+console.log(previousWidth);
+
+selectAlphaMode(previousWidth);
+
+$(window).resize(function(){
+  let width = $(window).width();
+
+  if((width < breakpoint && previousWidth >= breakpoint) || (width >= breakpoint && previousWidth < breakpoint)) {
+    selectAlphaMode(width);
+  }
+
+  previousWidth = width;
+
+});
+
+// Sätt alpha till 1 eller adaptiv baserat på viewportens bredd
+function selectAlphaMode(width) {
+
+  if (width < breakpoint) {
+    $(document).scroll().off();
+    setAlpha(1);
+    console.log('hej')
+  } else {
+    setAlpha(calcAlpha());
+    $(document).scroll(function() {
+      setAlpha(calcAlpha());
+      console.log('då')
+    });
+  }
+
 }
+
+
+
+function setAlpha(alpha) {
+$("nav").css("background-color", "rgba(39,39,39," + alpha + ")");
+}
+
 
 function calcAlpha() {
   //Definera variabel för alfa-värdet.
@@ -35,9 +75,6 @@ function calcAlpha() {
 }
 
 //När dokumentet scrollar, kör setAlpha-funktionen med värdet från calcAlpha
-$(document).scroll(function() {
-  setAlpha(calcAlpha());
 
-});
 
 
